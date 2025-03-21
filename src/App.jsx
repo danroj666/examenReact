@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
-import Header from './Header';
-import api from './apiComponent.jsx'
+import { useState } from 'react'
+import "./css/style.css"
+
 const App = () => {
   const [listaTareas, setListaTareas] = useState([]);
   
